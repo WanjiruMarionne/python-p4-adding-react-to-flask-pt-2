@@ -115,7 +115,7 @@ if __name__ == '__main__':
 From the server directory, run:
 
 ```console
-$ python app.py
+$ python3 app.py
 ```
 
 Then, open a new terminal, and run React in the `client/` directory:
@@ -180,7 +180,7 @@ database and `python seed.py` to fill it with data.
 
 ```console
 $ flask db upgrade
-$ python seed.py
+$ python3 seed.py
 ```
 
 In the React application, update your `App.js` file with the following code:
